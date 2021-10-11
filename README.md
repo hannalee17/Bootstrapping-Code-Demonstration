@@ -10,6 +10,8 @@ When building machine learning models, we can use bootstrapping to simulate the 
 
 ![Bootstrapping Illustration](https://github.com/Lawrence-LUOoo/Bootstrapping-Code-Demonstration/blob/main/bootstrapping_illustration.jpeg) [Image Source](https://trisxcjoseph.medium.com/)
 
+A quick summary of bootstrapping shown from the above illustration, while we usually gather a sample size from the original population to obtain a distribution and its statistics (illustrated in blue), bootstrapping allows us to produce similar result but through a smaller sample size through resampling with replacement method (illustrated in yellow).
+
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install numpy and matplotlib.
 
@@ -24,16 +26,16 @@ Execute the notebook [Bootstrapping - Code Demonstration.ipynb](https://github.c
 Execute the notebook [r_squared_bootstrapping.ipynb](https://github.com/Lawrence-LUOoo/Bootstrapping-Code-Demonstration/blob/main/r_squared_bootstrapping.ipynb) cell-by-cell to understand how we can use bootstrapping to get an approximate sample distribution of R<sup>2</sup> for a simple linear regression model. 
 
 ## Analysis steps
-1. simulate population distribution
-2. take a random sample from the population
-3. bootstrap for 10,000 times
-4. analysis and interpretation
-5. plot the probability distribution and confidence interval
+1. Simulate population distribution
+2. Take a random sample from the population
+3. Bootstrap for 10,000 times
+4. Analysis and interpretation
+5. Plot the probability distribution and confidence interval
 
 ## Authors:
 + [Ruifeng Luo](https://github.com/Lawrence-LUOoo)
 + [Charudatta Manwatkar](https://github.com/CharudattaManwatkar)
-+ [Siew Tsien (Hanna) Lee](https://link-url-here.org)
++ [Siew Tsien (Hanna) Lee](https://github.com/hannalee17)
 + [Camilo Chaves Beltran](https://link-url-here.org)
 
 
